@@ -19,11 +19,6 @@ body {
   flex: 3;
 }
 
-.left-content {
-  flex: 1;
-  text-align: center;
-}
-
 .left-heading {
   font-weight: bold;
   font-size: 2em;
@@ -53,7 +48,7 @@ img {
   right: 0;
   margin: auto;
   max-width: 90%;
-  max-height: 90%;
+  /* max-height: 90%; */
 }
 
 .right {
@@ -65,7 +60,6 @@ img {
 
 .right-block {
   display: flex;
-  flex: 1;
 }
 
 .right-heading {
