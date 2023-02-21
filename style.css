@@ -5,6 +5,7 @@
   /* debug */
   /* border: 1px dashed red; */
 }
+
 body {
   margin: 0 0;
 }
@@ -15,7 +16,9 @@ body {
   display: flex;
 }
 
-.container{
+.container,
+.right-block {
+  /* for mobile view */
   flex-wrap: wrap;
 }
 
