@@ -43,7 +43,7 @@ body {
 .left-content {
   flex: 1;
   max-height: 40%;
-  padding: 2%;
+  padding: 5%;
   text-align: center;
   /* position: relative; */
 }
@@ -57,6 +57,7 @@ img {
   /* margin: auto; */
   max-width: 90%;
   /* max-height: 90%; */
+  border-radius: 10px;
 }
 
 .right {
@@ -89,11 +90,20 @@ img {
 /* RESPONSIVE MOBILE VIEW */
 
 @media (max-width: 768px) {
-  .left {
-    margin-bottom: 100px;
+  /* for better landscape view */
+  .container {
+    flex-direction: column;
   }
 
   .left-heading {
     text-align: center;
+  }
+
+  .left {
+    margin-bottom: 5%;
+  }
+
+  .right-heading {
+    padding: 1.5em;
   }
 }
