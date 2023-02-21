@@ -42,18 +42,19 @@ body {
 
 .left-content {
   flex: 1;
-  position: relative;
   max-height: 40%;
   padding: 2%;
+  text-align: center;
+  /* position: relative; */
 }
 
 img {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  margin: auto;
+  right: 0; */
+  /* margin: auto; */
   max-width: 90%;
   /* max-height: 90%; */
 }
@@ -83,4 +84,16 @@ img {
   font-size: 18px;
   text-align: justify;
   padding: 2em;
+}
+
+/* RESPONSIVE MOBILE VIEW */
+
+@media (max-width: 768px) {
+  .left {
+    margin-bottom: 100px;
+  }
+
+  .left-heading {
+    text-align: center;
+  }
 }
