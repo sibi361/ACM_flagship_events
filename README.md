@@ -1,6 +1,6 @@
 # ACM_flagship_events
 
-Demo: https://www.sibis.me/ACM_flagship_events/
+DEMO: https://sibi361.github.io/ACM_flagship_events/
 
 TODO:
 

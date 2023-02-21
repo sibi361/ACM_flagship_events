@@ -15,6 +15,10 @@ body {
   display: flex;
 }
 
+.container{
+  flex-wrap: wrap;
+}
+
 .left {
   flex: 3;
 }
