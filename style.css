@@ -11,8 +11,8 @@ body {
 }
 
 .container,
-.right,
-.left-block {
+.left-block,
+.right-block {
   display: flex;
 }
 
@@ -24,6 +24,10 @@ body {
 
 .left {
   flex: 3;
+}
+
+.right {
+  flex: 5;
 }
 
 .left-heading {
@@ -53,15 +57,13 @@ img {
   border-radius: 10px;
 }
 
-.right {
-  flex: 5;
+.right-scrollable {
+  height: 100%;
+  position: absolute;
+  overflow: auto;
   background-color: #086457;
   flex-direction: column;
   color: white;
-}
-
-.right-block {
-  display: flex;
 }
 
 .right-heading {
@@ -114,6 +116,10 @@ a {
 
   img {
     max-width: 85%;
+  }
+
+  .right-scrollable {
+    position: static;
   }
 
   .right-heading {
