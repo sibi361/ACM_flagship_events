@@ -10,6 +10,10 @@ body {
   margin: 0 0;
 }
 
+.container {
+  padding: 0 !important;
+}
+
 .container,
 .left-block,
 .right-block {
@@ -57,6 +61,15 @@ img {
   border-radius: 10px;
 }
 
+#carouselExampleIndicators {
+  width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
 .right-scrollable {
   height: 100%;
   position: absolute;
@@ -83,8 +96,8 @@ img {
 }
 
 a {
-  color: #9bffbc;
-  text-decoration: none;
+  color: #9bffbc !important;
+  /* text-decoration: none; */
 }
 
 /* RESPONSIVE MOBILE VIEW */
